@@ -10,4 +10,9 @@ Links from lessons:
 
 - [Google Fonts](https://fonts.google.com/) 
 
-- [tktk descriptive name of link]()
+- [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+- [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes)
+
+- [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
