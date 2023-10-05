@@ -1,5 +1,5 @@
-# [tktk Module Name] - tktk Microlesson Name
+# Intermediate CSS - Fonts
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to tktk
+**Learning objective:** Use system fonts and Google fonts to control the appearance of text.
