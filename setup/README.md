@@ -5,11 +5,11 @@ Open your Terminal application and navigate to your ~/code/sei/lectures director
 ```bash
 cd ~/code/sei/lectures
 ```
-Make a new directory called `intro-to-css`, then enter this directory:
+Make a new directory called `intermediate-css`, then enter this directory:
 
 ```bash
-mkdir intro-to-css
-cd intro-to-css
+mkdir intermediate-css
+cd intermediate-css
 ```
 
 Create a folder called `css`:
@@ -41,7 +41,7 @@ Add the following HTML below the closing `</head>` tag:
 <body>
   <article>
     <a href="#about">About Section</a>
-    <h1>Intro to CSS</h1>
+    <h1>Intermediate to CSS</h1>
     <p id="about">More About CSS</p>
     <div>This is a DIV</div>
     <div class="crazy">This is another DIV</div>
