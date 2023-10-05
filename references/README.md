@@ -6,8 +6,8 @@
 
 Links from lessons:
 
-- [tktk descriptive name of link]()
+- [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) 
 
-- [tktk descriptive name of link]()
+- [Google Fonts](https://fonts.google.com/) 
 
 - [tktk descriptive name of link]()
