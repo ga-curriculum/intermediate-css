@@ -1,6 +1,4 @@
-# Intermediate CSS - CSS Boilerplate
-
-![Hero image](./assets/hero.png)
+# ![Intermediate CSS - CSS Boilerplate](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to explain what CSS boilerplate is and why it's useful.
 

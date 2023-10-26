@@ -1,6 +1,4 @@
-# [tktk Module Name]
-
-![Hero image](./assets/tktkhero-main.png)
+# ![Intermediate CSS](./assets/hero.png)
 
 ## Module overview
 
