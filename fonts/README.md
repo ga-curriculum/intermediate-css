@@ -46,7 +46,7 @@ Copy the entire shaded block and paste it into the `<head>` of your HTML documen
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
   <!-- external stylesheet below -->
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 ```
 

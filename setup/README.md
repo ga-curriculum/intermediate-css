@@ -32,7 +32,7 @@ code .
 Open the `index.html` file and add HTML boilerplate. Then make use of the `style.css` file by adding this line inside the `<head>` tag:
 
 ```html
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 ```
 
 

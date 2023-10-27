@@ -2,8 +2,9 @@
 
 **Learning objective:** By the end of this lesson, students will be able to use different types of CSS units, such as pixels, percentages, and ems
 
-
 We use CSS units to specify the size of elements in a CSS stylesheets. There are many different types of units to choose from, but they can broadly divided into two categories: **absolute units** and **relative units**.
+
+tktk LEVELUP
 
 ## Absolute units
 
@@ -22,7 +23,9 @@ Relative units are based on the size of another element on the page. Some exampl
 
 - `em`: Ems are based on the font size of the parent element.
 - `rem`: Rems are similar to ems, but they are based on the font size of the root element.
-- `%`: Percentages are based on the size of the container element.
+- `%`: Percentages are based on the size of the container element, and as a result are always relative to the size of that element.  
+- `vw` - 1% of width
+- `vh` - 1% of height
 
 ## Which units to use
 
@@ -33,14 +36,14 @@ However, if we are styling the font size of an element, we might want to use a r
 Here are some examples of how to use CSS units:
 
 ```css
-/* Set the width of an element to 100 pixels */
+/* Set the width of an element to the entire view width */
 div {
-  width: 100px;
+  width: 100vw;
 }
 
-/* Set the font size of an element to 1.5 times the font size of its parent element */
+/* Set the font size of an element to 24 pixels  */
 p {
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 /* Set the margin of an element to 10% of its container element */
@@ -48,4 +51,8 @@ img {
   margin: 10%;
 }
 ```
+
+Pitfalls when specifying height and width
+- scenario where you need min-height/width because other units cant solve that problem
+tktk min-height, min-width
 

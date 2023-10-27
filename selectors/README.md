@@ -1,6 +1,3 @@
-
-
-
 # ![Intermediate CSS - Selectors](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to target specific elements on the page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators.
@@ -47,8 +44,9 @@ Here are some examples:
 
 And here's a link to learn more about [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
 
-## Uncommon combinators
+## Uncommon combinators (move to LU)
 
+## Child Selector
 Three of the less common combinators are:
 
 - The **child selector** (`>`)

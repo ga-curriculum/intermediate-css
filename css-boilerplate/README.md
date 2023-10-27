@@ -2,25 +2,33 @@
 
 **Learning objective:** By the end of this lesson, students will be able to explain what CSS boilerplate is and why it's useful.
 
+## CSS Boilerplate 
 
-CSS boilerplate is a set of CSS rules that are commonly used on web pages. It is typically used to normalize the behavior of different browsers and to provide a basic set of styles for common HTML elements.
+CSS boilerplate refers to a set of CSS rules that provide sensible defaults for styling. It is typically used to normalize the behavior of different browsers and to provide a basic set of styles for common HTML elements.
 
-Some of the most common CSS boilerplate rules include:
+Some of the most common CSS boilerplate rule sets include:
 
-- **Resetting CSS**: This resets all CSS properties to their default values. This is useful for ensuring that all browsers display your web page in the same way.
+- **Resetting CSS**: This resets all CSS properties to their default values, and is useful for ensuring that all browsers display your web page in the same way.
 
-- **Normalizing CSS**: This normalizes the behavior of different browsers across different platforms. This can help to prevent unexpected differences in the appearance of your web page on different devices.
+- **Normalizing CSS**: This normalizes the behavior of different browsers across different platforms, and can help to prevent unexpected differences in the appearance of your web page on different devices.
 
 - **Basic styles for common HTML elements**: This provides a basic set of styles for common HTML elements, such as headings, paragraphs, and lists. This can save you time from having to write these styles yourself.
 
-You can find many different CSS boilerplate templates available online. Some popular examples include:
+Here is an example that you could use in your own work:
 
-- Normalize.css
-- Reset.css
-- Skeleton CSS
-- Foundation CSS
-- Bootstrap CSS
+```css
+* {
+  box-sizing: border-box
+}
 
-To use CSS boilerplate, simply include the CSS file in your web page's <head> section.
+body {
+  background-color: gray;
+  /* Use a system font, if none are available use an available sans-sarif font */
+  font-family: system-ui, sans-serif;
+  /* Ensures full height compatibility across devices */
+  min-height: 100dvh;
+  margin: 0;
+}
+```
 
-Once you have included the CSS boilerplate file, you can start using the boilerplate styles in your own CSS.
+If you're curious about `dvh`, check out [this article](https://ishadeed.com/article/new-viewport-units/) for more details. 
