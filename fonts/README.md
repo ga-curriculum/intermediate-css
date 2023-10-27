@@ -16,6 +16,8 @@ body {
 }
 ```
 
+[tktk hunter: something like [this](https://github.com/system-fonts/modern-font-stacks/blob/main/img/system-ui.png)]
+
 By specifying a fallback font, such as `sans-serif`, we ensure that our text will still be readable even if the requested font isn't available. 
 
 ## Google Fonts
