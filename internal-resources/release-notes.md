@@ -16,4 +16,4 @@ This release modularizes the legacy Intermediate CSS lecture and provides some o
 
 **Removals**
 
-Removes content that is covered in intro section under new module structure (external stylesheets, absolute units).
+- Removes content that is covered in intro section under new module structure (external stylesheets, absolute units).

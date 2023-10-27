@@ -1,12 +1,17 @@
 # ![Intermediate CSS](./assets/hero.png)
 
-## Module overview
+## About
 
 This module introduces intermediate concepts in CSS.
 
-## Content outline
+## Prerequisites
 
-| Lesson | Video Time | Video | Learning Objective |
+- Intro to CSS 
+- Intro to HTML
+
+## Content
+
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
 | [Setup](./setup/README.md) | -- | -- | -- |
 | [`box-sizing`](./box-sizing/README.md) | -- | -- | Understand what the `box-sizing` property is and how it works. |
@@ -16,16 +21,19 @@ This module introduces intermediate concepts in CSS.
 | [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Explore CSS boilerplate and why it's useful. |
 |  **Total Module**                                        | -- | --            | ---     |
 
-## Additional content 
+
+## Level Up content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:|
+| [Internal and Inline Styling](./level-up/internal-and-inline-styling.md) | -- | -- | Alternative methods of styling. |
+| [Inheritance](./level-up/inheritance.md) | -- | -- | The concept of inheritance in CSS. |
+| [Specificity](./level-up/specificity.md) | -- | -- | Gain an understanding of the ranking priority of styling specificity. |
+| [Margin Collapsing](./level-up/margin-collapsing.md) | -- | -- | Identify and avoid margin collapsing. |
+
+## Reference
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [Internal and Inline Styling](./level-up/internal-and-inline-styling.md)
-- [Inheritance](./level-up/inheritance.md)
-- [Specificity](./level-up/specificty.md)
-- [Margin Collapsing](./level-up/margin-collapsing.md)
 
 ## Internal resources
 
