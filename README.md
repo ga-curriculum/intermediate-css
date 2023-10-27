@@ -12,7 +12,7 @@ This module introduces intermediate concepts in CSS.
 | [`box-sizing`](./box-sizing/README.md) | -- | -- | Understand what the `box-sizing` property is and how it works. |
 | [Fonts](./fonts/README.md) | -- | -- | Use system fonts and Google fonts to control the appearance of text. |
 | [Selectors](./selectors/README.md) | -- | -- | Target specific elements on the page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators. |
-| [CSS Units](./css-units/README.md) | -- | -- | Use different types of CSS units, such as pixels, percentages, and ems. |
+| [Relative Units](./css-units/README.md) | -- | -- | Use different types of CSS units, such as pixels, percentages, and ems. |
 | [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Explore CSS boilerplate and why it's useful. |
 |  **Total Module**                                        | -- | --            | ---     |
 
