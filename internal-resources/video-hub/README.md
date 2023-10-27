@@ -1,4 +1,4 @@
-# [tktk Module Name] - Video Hub
+# Intermediate CSS - Video Hub
 
 ![Hero image](../../assets/tktkhero-secondary.png)
 

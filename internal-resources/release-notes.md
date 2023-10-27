@@ -1,4 +1,4 @@
-# [tktk Module Name] - Release Notes
+# Intermediate CSS - Release Notes
 
 ![Hero image](../assets/hero.png)
 
