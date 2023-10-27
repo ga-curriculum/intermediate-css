@@ -31,17 +31,17 @@ Unlike `px` units, `rem` is responsive. As the root font size changes, all of th
 
 All of our relative units update accordingly, and the font size of the element is dynamically consistent with the rest of the page. 
 
-Here are some examples of how to use CSS units:
+Here are some examples of how to use relative units:
 
 ```css
-/* Set the width of an element to the entire view width */
+/* Set the width of an element to the entire width of the viewport */
 div {
   width: 100vw;
 }
 
-/* Set the font size of an element to 24 pixels  */
+/* Set the font size of an element to 2 times the root font size */
 p {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 /* Set the margin of an element to 10% of its container element */
@@ -50,7 +50,22 @@ img {
 }
 ```
 
-Pitfalls when specifying height and width
-- scenario where you need min-height/width because other units cant solve that problem
-tktk min-height, min-width
+### Pitfalls when specifying height and width
+
+`min-height` and `min-width` are CSS properties rather than units, but they are often used in conjunction with relative units to help build responsive layouts. 
+
+They prevent the height or width of an element from becoming smaller than whatever value is specified. 
+
+Using `height` and `min-height` as an example, `min-height` always overrides height. The following code styles a `div` which at minimum is `10rem` tall, but can expand up to `100%` of the available height of the container: 
+ 
+```css
+div {
+  /* div takes up full height of the container element */
+  height: 100%;
+  /* min-height specifies that the div will be at minimum 10rem tall */ 
+  min-height: 10rem; 
+}
+```
+
+
 
