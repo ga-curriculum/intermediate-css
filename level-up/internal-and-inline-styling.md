@@ -1,5 +1,6 @@
+![Intermediate CSS - Level Up - Internal and Inline Styling](./assets/hero.png)
+
 # Intermediate CSS - Level Up - Internal and Inline Styling
-![Hero image](./assets/hero.png)
 
 There are two additional ways to add styling to a web page:
 
