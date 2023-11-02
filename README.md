@@ -14,12 +14,12 @@ This module introduces intermediate concepts in CSS.
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
 | [Setup](./setup/README.md) | -- | -- | -- |
-| [`box-sizing`](./box-sizing/README.md) | -- | -- | Understand what the `box-sizing` property is and how it works. |
-| [Fonts](./fonts/README.md) | -- | -- | Use system fonts and Google fonts to control the appearance of text. |
-| [Selectors](./selectors/README.md) | -- | -- | Target specific elements on the page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators. |
-| [Relative Units](./css-units/README.md) | -- | -- | Use different types of CSS units, such as pixels, percentages, and ems. |
-| [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Explore CSS boilerplate and why it's useful. |
-|  **Total Module**                                        | -- | --            | ---     |
+| [`box-sizing`](./box-sizing/README.md) | -- | -- | `box-sizing` property in CSS |
+| [Fonts](./fonts/README.md) | -- | -- | system fonts in CSS, importing web fonts from Google Fonts |
+| [Selectors](./selectors/README.md) | -- | -- | attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS |
+| [Relative Units](./realtive-units/README.md) | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each |
+| [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Common CSS boilerplate types, Normalize, Reset |
+|  **Total content**    | -- | -- |    |
 
 
 ## Level Up content
@@ -30,6 +30,7 @@ This module introduces intermediate concepts in CSS.
 | [Inheritance](./level-up/inheritance.md) | -- | -- | The concept of inheritance in CSS. |
 | [Specificity](./level-up/specificity.md) | -- | -- | Gain an understanding of the ranking priority of styling specificity. |
 | [Margin Collapsing](./level-up/margin-collapsing.md) | -- | -- | Identify and avoid margin collapsing. |
+|  **Total Level Up content** | -- | -- |    |
 
 ## Reference
 
