@@ -1,5 +1,7 @@
 ![Intermediate CSS - Level Up - Margin Collapsing](./assets/hero.png)
 
+**Learning objective:** By the end of this lesson, learners will understand the phenomenon of margin collapsing in CSS, including its causes and implications on the design layout. 
+
 # Margin Collapsing
 
 Margin collapsing is a behavior that occurs when the margins of adjacent block-level elements overlap. This can cause the margins to merge together, resulting in a larger margin than expected.

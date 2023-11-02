@@ -1,5 +1,7 @@
 ![Intermediate CSS - Level Up - Inheritance](./assets/hero.png)
 
+**Learning objective:**  By the end of this lesson students will be able to demonstrate their understanding of css inheritance by overriding inherited styles using the `initial` value. 
+
 # Inheritance
 
 [Inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Inheritance) is a key component of CSS - it dictates that certain properties such as font family or color can be passed from parent elements to child elements implicitly. 

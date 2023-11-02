@@ -1,5 +1,7 @@
 ![Intermediate CSS - Level Up - Internal and Inline Styling](./assets/hero.png)
 
+**Learning objective:** By the end of this lesson, learners will be able to differentiate between inline and internal styles in CSS, and describe their use cases in web design. 
+
 # Internal and Inline Styling
 
 There are two additional ways to add styling to a web page:

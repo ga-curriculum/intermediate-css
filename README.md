@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces intermediate concepts in CSS.
+While beginner CSS lays a solid foundation, continuing into more advanced concepts significantly elevates a developer's capabilities. By understanding elements like box-sizing, relative units, and more advanced selectors, developers achieve greater precision and flexibility in their designs, ensuring they adapt seamlessly across varied screen sizes and devices. As students progress in their careers, these more advanced techniques become standard in professional settings, allowing them to seamlessly integrate with teams and handle intricate stylesheets.
 
 ## Prerequisites
 
