@@ -4,7 +4,7 @@
 
 ## CSS Boilerplate 
 
-CSS boilerplate refers to a set of CSS rules that provide sensible defaults for styling. It is typically used to normalize the behavior of different browsers and to provide a basic set of styles for common HTML elements.
+CSS boilerplate refers to a set of pre-defined CSS rules and styles that are commonly used as a starting point in web development. The purpose of CSS boilerplate is to provide a consistent and normalized foundation for styling web pages, making it easier to create cross-browser and cross-platform compatible designs. It is typically used to normalize the behavior of different browsers and to provide a basic set of styles for common HTML elements.
 
 Some of the most common CSS boilerplate rule sets include:
 
