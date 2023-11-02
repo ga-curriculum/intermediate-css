@@ -1,4 +1,4 @@
-# [tktk Module Name] - Instructor Guide
+# Intermediate CSS - Instructor Guide
 
 ![Hero image](../assets/hero.png)
 

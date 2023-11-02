@@ -1,31 +1,39 @@
 # ![Intermediate CSS](./assets/hero.png)
 
-## Module overview
+## About
 
 This module introduces intermediate concepts in CSS.
 
-## Content outline
+## Prerequisites
 
-| Lesson | Video Time | Video | Learning Objective |
+- Intro to CSS 
+- Intro to HTML
+
+## Content
+
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
-| [Adding Styles to a Web Page](./adding-styles-to-web-page/README.md) | tktk min | [tktk Link]() | Learn how to use inline, internal, and external stylesheets and understand CSS precedence. |
-| [`box-sizing`](./box-sizing/README.md) | tktk min | [tktk Link]() | Understand what the `box-sizing` property is and how it works. |
-| [Fonts](./fonts/README.md) | tktk min | [tktk Link]() | Use system fonts and Google fonts to control the appearance of text. |
-| [Selectors](./selectors/README.md) | tktk min | [tktk Link]() | Target specific elements on the page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators. |
-| [CSS Units](./css-units/README.md) | tktk min | [tktk Link]() | Use different types of CSS units, such as pixels, percentages, and ems. |
-| [CSS Boilerplate](./css-boilerplate/README.md) | tktk min | [tktk Link]() | Exlpore CSS boilerplate and why it's useful. |
-| [Intermediate Concepts](./intermediate-concepts/README.md) | tktk min | [tktk Link]() | Learn fundamental concepts like inheritance, specificity, and margin collapsing. |
-|  **Total Module**                                        | tktk min | --            | ---     |
+| [Setup](./setup/README.md) | -- | -- | -- |
+| [`box-sizing`](./box-sizing/README.md) | -- | -- | Understand what the `box-sizing` property is and how it works. |
+| [Fonts](./fonts/README.md) | -- | -- | Use system fonts and Google fonts to control the appearance of text. |
+| [Selectors](./selectors/README.md) | -- | -- | Target specific elements on the page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators. |
+| [Relative Units](./css-units/README.md) | -- | -- | Use different types of CSS units, such as pixels, percentages, and ems. |
+| [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Explore CSS boilerplate and why it's useful. |
+|  **Total Module**                                        | -- | --            | ---     |
 
-## Additional content 
+
+## Level Up content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:|
+| [Internal and Inline Styling](./level-up/internal-and-inline-styling.md) | -- | -- | Alternative methods of styling. |
+| [Inheritance](./level-up/inheritance.md) | -- | -- | The concept of inheritance in CSS. |
+| [Specificity](./level-up/specificity.md) | -- | -- | Gain an understanding of the ranking priority of styling specificity. |
+| [Margin Collapsing](./level-up/margin-collapsing.md) | -- | -- | Identify and avoid margin collapsing. |
+
+## Reference
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
 
 ## Internal resources
 
