@@ -1,6 +1,6 @@
-# Intermediate CSS - Level Up - Specificity
+![Intermediate CSS - Level Up - Specificity](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
+# Specificity
 
 Specificity is a way the browser decides which CSS rule gets applied when there is a conflict. For example:
 
@@ -16,7 +16,7 @@ div {
 <div class="my-class">What color am I?</div>
 ```
 
-A conflict exists because the `<div`> matches both CSS selector rules.
+A conflict exists because the same `<div>` has two css selectors applied with a color. 
 
 The selector with the **highest** *specificity* wins.
 
@@ -28,6 +28,8 @@ Specificity is based upon the following priorities, where *Priority A* has highe
 
 So, in the above example, we'd expect the `div` to be blue, as classes take have a higher specificity than elements. 
 
-Internally, the browser computes CSS Specificity as shown here (from [https://specificity.keegan.st/](https://specificity.keegan.st/)):
+Internally, the browser computes CSS Specificity as shown below 
 
-![Specificity calculator graphic](assets/originals/specificity-calculator.png)
+![Specificity calculator graphic](./assets/specificity-calculator.png)
+
+source: [https://specificity.keegan.st/](https://specificity.keegan.st/)

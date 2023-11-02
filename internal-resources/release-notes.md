@@ -1,6 +1,4 @@
-# Intermediate CSS - Release Notes
-
-![Hero image](../assets/hero.png)
+# ![Intermediate CSS - Release Notes](../assets/hero.png)
 
 ## Version 1.0 - Updates from legacy content
 
