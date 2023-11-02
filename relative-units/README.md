@@ -1,6 +1,6 @@
 # ![Intermediate CSS - CSS Units](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to understand and use relative units in CSS.
+**Learning objective:** By the end of this lesson, students will be able to use relative units to specify element sizes in CSS.
 
 ## Relative units
 
@@ -11,6 +11,9 @@ We use CSS units to specify the size of elements in a CSS stylesheets.  Relative
 - `%`: Percentages are based on the size of the container element, and as a result are always relative to the size of that element.  
 - `vw` - 1% of the viewport's width.
 - `vh` - 1% of the viewport's height.
+
+**Relative units** are valuable when you want elements to adapt and scale proportionally in response to changes in the parent or root elements. For example, when setting font sizes, using relative units like `ems` or `rems` makes the text size relative to the parent element or the root element (usually the `<html>` element). This approach ensures that text remains readable and visually consistent across various screen sizes and devices.
+
 
 ## Which units to use
 
