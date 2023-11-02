@@ -1,6 +1,6 @@
 # ![Intermediate CSS - Fonts](./assets/hero.png)
 
-**Learning objective:** Use system fonts and Google fonts to control the appearance of text.
+**Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of system fonts and importing web fonts from Google Fonts.
 
 ## System fonts
 
@@ -55,3 +55,14 @@ Copy the entire shaded block and paste it into the `<head>` of your HTML documen
 > ❓ Why do we need to add the google font stylesheet above our stylesheet?
 
 Keep in mind that if you decide to add more Google fonts to your project, you'll need to update the html link.
+
+### Apply your new font
+
+After linking or importing your new font, make sure to apply it to either the entire HTML page by updating the `font-family` property in the body or to specific text elements by modifying their `font-family` property individually.
+
+```css
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+```
