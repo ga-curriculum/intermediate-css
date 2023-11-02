@@ -17,7 +17,7 @@ This module introduces intermediate concepts in CSS.
 | [`box-sizing`](./box-sizing/README.md) | -- | -- | `box-sizing` property in CSS |
 | [Fonts](./fonts/README.md) | -- | -- | system fonts in CSS, importing web fonts from Google Fonts |
 | [Selectors](./selectors/README.md) | -- | -- | attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS |
-| [Relative Units](./realtive-units/README.md) | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each |
+| [Relative Units](./relative-units/README.md) | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each |
 | [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Common CSS boilerplate types, Normalize, Reset |
 |  **Total content**    | -- | -- |    |
 
