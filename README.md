@@ -25,7 +25,7 @@ This module introduces intermediate concepts in CSS.
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:|
+| ------ |:----------:|:-----:| ------ |
 | [Internal and Inline Styling](./level-up/internal-and-inline-styling.md) | -- | -- | Alternative methods of styling. |
 | [Inheritance](./level-up/inheritance.md) | -- | -- | The concept of inheritance in CSS. |
 | [Specificity](./level-up/specificity.md) | -- | -- | Gain an understanding of the ranking priority of styling specificity. |
