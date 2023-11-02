@@ -8,6 +8,8 @@
 
 By default, when we specify the height and width of an element we are only setting the height and width of its content. However, when using the `border-box` value on the`box-sizing` property, any padding or border of the element is included in the calculation.
 
+tktk - Hunter could we get a visual representation that shows width of an element being calculated with and without this property?
+
 Typically, we want to apply this setting to every element on the page, so we use the `*` selector to apply this style universally. 
 
 ```css
