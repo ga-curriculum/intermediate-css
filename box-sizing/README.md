@@ -25,3 +25,5 @@ This is a fantastic rule to apply at the top of your stylesheets, and is commonl
 Most importantly, this rule makes sizing elements more intuitive - when setting the height or width of an element, that is the exact height or width that element will be. This makes writing CSS much more predictable. 
 
 Because we've applied `box-sizing: border-box` universally, we can be sure that the height and width of any element on our page will always be calculated the same way. 
+
+![box-sizing](./assets/box-sizing.png)
