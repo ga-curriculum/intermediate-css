@@ -2,7 +2,7 @@
 
 ## About
 
-While beginner CSS lays a solid foundation, continuing into more advanced concepts significantly elevates a developer's capabilities. By understanding elements like box-sizing, relative units, and more advanced selectors, developers achieve greater precision and flexibility in their designs, ensuring they adapt seamlessly across varied screen sizes and devices. As students progress in their careers, these more advanced techniques become standard in professional settings, allowing them to seamlessly integrate with teams and handle intricate stylesheets.
+While beginner CSS lays a solid foundation, advancing into more complex concepts really enhances a developer's skill set. Understanding elements like box-sizing, relative units, and advanced selectors allows for greater precision and flexibility in design. This ensures designs are compatible across different screen sizes and devices. As developers advance in their careers, familiarity with these more advanced techniques becomes a norm in professional settings, enabling students to have a smoother integration into teams where they could be managing complex stylesheets.
 
 ## Prerequisites
 
