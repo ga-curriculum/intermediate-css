@@ -16,6 +16,11 @@ body {
 }
 ```
 
+And here's the result:
+
+![The System UI fonts, and their respective Operating Systems.](./assets/system-ui.png)
+Image from [system-fonts on GitHub](https://github.com/system-fonts/modern-font-stacks).
+
 By specifying a fallback font, such as `sans-serif`, we ensure that our text will still be readable even if the requested font isn't available.
 
 ## Google Fonts
