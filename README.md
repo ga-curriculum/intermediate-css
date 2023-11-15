@@ -13,7 +13,7 @@ While beginner CSS lays a solid foundation, advancing into more complex concepts
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
-| [Setup](./setup/README.md) | -- | -- | Setting up the dev environment |
+| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
 | [`box-sizing`](./box-sizing/README.md) | -- | -- | The `box-sizing` property in CSS |
 | [Fonts](./fonts/README.md) | -- | -- | System fonts in CSS, importing web fonts from Google Fonts |
 | [Selectors](./selectors/README.md) | -- | -- | Attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS |
