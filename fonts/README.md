@@ -1,31 +1,23 @@
 # ![Intermediate CSS - Fonts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of web-safe fonts and importing web fonts from Google Fonts.
+**Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of system fonts and importing fonts from Google Fonts.
 
-## web-safe Fonts
+## System fonts
 
-When choosing a font for our projects, we can either use a pre-installed **web-safe font**, or we can import a web font from a library like **Google Fonts**.
+When choosing a font for our projects, we can use a pre-installed system font, a web-safe font, or import a font from a library like Google Fonts.
 
-Web-safe fonts are a good option to use because they are virtually guaranteed to be available on all users' devices. This means that our website will look the same for everyone, regardless of what operating system or browser they are using.  Here are fonts that are available on the vast majority browsers:
+System fonts are a good option to use because they are guaranteed to be available on all users' devices. This means that our website will look the same for everyone, regardless of what operating system or browser they are using.
 
-- Arial (sans-serif)
-- Verdana (sans-serif)
-- Tahoma (sans-serif)
-- Trebuchet MS (sans-serif)
-- Times New Roman (serif)
-- Georgia (serif)
-- Courier New (monospace)
-- Brush Script MT (cursive)
-
-To use a Web-safe font in CSS, we specify the font name (e.g. Arial) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property.
+To use a system font in CSS, we specify a special font name (`system-ui`) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property. By specifying this font name we guarantee we are using a font native to the operating system the user is viewing the site on. 
 
 ```css
 body {
-  font-family: Arial, sans-serif;
+  font-family: system-ui, sans-serif;
 }
 ```
 
-By specifying a fallback font, such as `sans-serif`, we ensure that our text will still be readable even if the requested font isn't available. 
+By specifying a fallback font, such as `sans-serif`, we ensure that our text will still be readable even if the requested font isn't available.
+
 ## Google Fonts
 
 [Google Fonts](https://fonts.google.com/) are a great option if we want to use a font that is not pre-installed on the user's device. Google Fonts are free to use and have a wide variety of fonts to choose from, including serif, sans-serif, display, and handwriting fonts.
@@ -70,10 +62,11 @@ After linking or importing your new font, make sure to apply it to either the en
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
 ```
 
-## Knowledge Checks
+Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on fonts that are safe to use in web development.
+
+## ❓ Review Questions
 
 - True/False: in the unlikely event that a browser does not contain a web-safe font, it is a good idea specify a backup, such as `sans-serif`
 - True/False: Google fonts are available on all browsers by default

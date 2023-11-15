@@ -4,15 +4,16 @@
 
 ## Relative units
 
-We use CSS units to specify the size of elements in a CSS stylesheets.  Relative units are based on the size of another element on the page. Some examples of relative units include:
+We use CSS units to specify the size of elements in a CSS stylesheets. Relative units are based on the size of another element on the page. Some examples of relative units include:
 
-- `em`: Ems are based on the font size of the parent element.  `2em` is twice the font size of the parent element.  If the font size of the parent is `12px`, then `2em` is `24px`.
+- `em`: Ems are based on the font size of the parent element. `2em` is twice the font size of the parent element. If the font size of the parent is `12px`, then `2em` is `24px`.
 - `rem`: Rems are similar to ems, but they are based on the font size of the root element.
-- `%`: Percentages are based on the size of the container element, and as a result are always relative to the size of that element.  
+- `%`: Percentages are based on the size of the container element, and as a result are always relative to the size of that element.
 - `vw` - 1% of the viewport's width.
 - `vh` - 1% of the viewport's height.
 
 **Relative units** are valuable when you want elements to adapt and scale proportionally in response to changes in the parent or root elements. For example, when setting font sizes, using relative units like `ems` or `rems` makes the text size relative to the parent element or the root element (usually the `<html>` element). This approach ensures that text remains readable and visually consistent across various screen sizes and devices.
+
 ## Which units to use
 
 The type of CSS units that we should use depends on the specific property that we are styling. For example, if we were styling the width of an element, we could use `%` so that the element always takes up the same amount of its available container. 
@@ -68,9 +69,8 @@ div {
 }
 ```
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - What's the difference between rems and ems?
 - True/False: `height` overrides `min-height`.
 - `5vw` represents what, in terms of the size of browser window?
-

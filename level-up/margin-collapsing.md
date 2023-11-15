@@ -22,24 +22,24 @@ img {
 
 Here are some examples of margin collapsing:
 
-  1. In this example, the margins of the `.box1` and `.box2` elements will collapse, resulting in a single margin between the two elements. Div elements are `block` by default. 
-  
-  ```html
-  <div class="container">
-    <div class="box1">Box 1</div>
-    <div class="box2">Box 2</div>
-  </div>
-  ```
+1. In this example, the margins of the `.box1` and `.box2` elements will collapse, resulting in a single margin between the two elements. Div elements are `block` by default.
 
-  2. In this example, the margin of the `.box1` element will not collapse with the margin of the image, because the image is an `inline` element by default.
+   ```html
+   <div class="container">
+     <div class="box1">Box 1</div>
+     <div class="box2">Box 2</div>
+   </div>
+   ```
 
-  ```html
-  <div class="container">
-    <div class="box1">Box 1</div>
-    <img src="image.jpg" alt="Image">
-    <div class="box2">Box 2</div>
-  </div>
-  ```
+2. In this example, the margin of the `.box1` element will not collapse with the margin of the image, because the image is an `inline` element by default.
+
+   ```html
+   <div class="container">
+     <div class="box1">Box 1</div>
+     <img src="image.jpg" alt="Image">
+     <div class="box2">Box 2</div>
+   </div>
+   ```
 
 ### How to prevent margin collapsing
 

@@ -26,7 +26,8 @@ Most importantly, this rule makes sizing elements more intuitive - when setting 
 
 Because we've applied `box-sizing: border-box` universally, we can be sure that the height and width of any element on our page will always be calculated the same way. 
 
-## Knowledge Checks
+## ❓ Review Questions
+
 - What is the difference between border-box and content-box when it comes to box sizing?
 - Which box-sizing is preferred and why?
 - True/False: `border-box` includes any margin.

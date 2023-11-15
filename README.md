@@ -12,25 +12,26 @@ While beginner CSS lays a solid foundation, advancing into more complex concepts
 ## Content
 
 | Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------------------ |
-| [Setup](./setup/README.md) | -- | -- | Setting up the development environment |
-| [`box-sizing`](./box-sizing/README.md) | -- | -- | The `box-sizing` property in CSS |
-| [Fonts](./fonts/README.md) | -- | -- | System fonts in CSS, importing web fonts from Google Fonts |
-| [Selectors](./selectors/README.md) | -- | -- | Attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS |
-| [Relative Units](./relative-units/README.md) | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each |
-| [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Common CSS boilerplate types, Normalize, Reset |
-|  **Total content**    | -- | -- |    |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md)                     | -- | -- | Setting up the development environment                                            |
+| [`box-sizing`](./box-sizing/README.md)         | -- | -- | The `box-sizing` property in CSS                                                  |
+| [Fonts](./fonts/README.md)                     | -- | -- | System fonts in CSS, importing web fonts from Google Fonts                        |
+| [Selectors](./selectors/README.md)             | -- | -- | Attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS |
+| [Relative Units](./relative-units/README.md)   | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each              |
+| [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Common CSS boilerplate types, Normalize, Reset                                    |
+| **Total content**                              | -- | -- |                                                                                   |
 
 
 ## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------ |
-| [Internal and Inline Styling](./level-up/internal-and-inline-styling.md) | -- | -- | Internal styles and inline css |
-| [Inheritance](./level-up/inheritance.md) | -- | -- | How children inherit the style of parent elements, preventing inheritance |
-| [Specificity](./level-up/specificity.md) | -- | -- | Ranking style priority with specificity |
-| [Margin Collapsing](./level-up/margin-collapsing.md) | -- | -- | Identify and avoid margin collapsing |
-|  **Total Level Up content** | -- | -- |    |
+| [Internal and Inline Styling](./level-up/internal-and-inline-styling.md) | -- | -- | Internal styles and inline css                                            |
+| [Inheritance](./level-up/inheritance.md)                                 | -- | -- | How children inherit the style of parent elements, preventing inheritance |
+| [Specificity](./level-up/specificity.md)                                 | -- | -- | Ranking style priority with specificity                                   |
+| [Margin Collapsing](./level-up/margin-collapsing.md)                     | -- | -- | Identify and avoid margin collapsing                                      |
+| [Web-safe Fonts](./level-up/web-safe-fonts.md)                           | -- | -- | Implement web-safe fonts                                                  |
+| **Total Level Up content**                                               | -- | -- |                                                                           |
 
 ## Reference
 

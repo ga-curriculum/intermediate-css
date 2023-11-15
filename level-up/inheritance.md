@@ -1,6 +1,6 @@
 ![Intermediate CSS - Level Up - Inheritance](./assets/hero.png)
 
-**Learning objective:**  By the end of this lesson students will be able to demonstrate their understanding of css inheritance by overriding inherited styles using the `initial` value. 
+**Learning objective:** By the end of this lesson students will be able to demonstrate their understanding of css inheritance by overriding inherited styles using the `initial` value. 
 
 # Inheritance
 
@@ -12,11 +12,11 @@ We are able to override inheritance by giving an `initial` value to keys we donâ
 
 ```css
 ul {
-  color : red;   /* all child elements will have red text */
+  color : red; /* all child elements will have red text */
 }
 
 li {
   margin: 5px 0 0 0;
-  color: initial;    /* will not inherit red text color from parent */
+  color: initial; /* will not inherit red text color from parent */
 }
 ```
