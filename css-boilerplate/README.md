@@ -32,9 +32,3 @@ body {
 ```
 
 If you're curious about `dvh`, check out [this article](https://ishadeed.com/article/new-viewport-units/) for more details. 
-
-## ❓ Review Questions
-
-- True/False: browsers all pretty much display everything the same now.
-- What are three things the most common CSS boilerplate rule sets include?
-- What is the point of CSS boilerplate?

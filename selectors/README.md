@@ -101,8 +101,4 @@ Would target all `<p>` tags that are siblings following a `<img>`.
 
 > 🧠 The last component listed in a combination selector determines what is targeted! For example, looking above, only `<p>` elements are selected, not the `<img>`.
 
-## ❓ Review Questions
 
-- True/False, as with many things in programming, it's crucial that you have all aspects of CSS memorized, even these intermediate topics
-- Which pseudo-class would you use for styling an element when the mouse cursor hovers over it?
-- How would you select all `li` elements that are *direct* children of `ul` elements?

@@ -70,9 +70,3 @@ body {
 ```
 
 Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on fonts that are safe to use in web development.
-
-## ❓ Review Questions
-
-- True/False: in the unlikely event that a browser does not contain a web-safe font, it is a good idea specify a backup, such as `sans-serif`
-- True/False: Google fonts are available on all browsers by default
-- Once you've linked to a Google font in your html, how do you use it?

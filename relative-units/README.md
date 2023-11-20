@@ -68,9 +68,3 @@ div {
   min-height: 10rem; 
 }
 ```
-
-## ❓ Review Questions
-
-- What's the difference between rems and ems?
-- True/False: `height` overrides `min-height`.
-- `5vw` represents what, in terms of the size of browser window?
