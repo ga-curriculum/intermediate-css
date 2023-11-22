@@ -1,4 +1,4 @@
-# ![Intermediate CSS - Instructor Guide](../assets/hero.png)
+# ![Intermediate CSS - Instructor Guide](../assets/instructor-guide.png)
 
 Nothing here yet!
 
