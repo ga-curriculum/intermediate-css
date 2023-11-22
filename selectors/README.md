@@ -47,7 +47,7 @@ Here are some examples:
 - `.special::before` - Add content *before* all elements with a class of `.special`.
 - `.special::after` - Add content *after* all elements with a class of `.special`.
 
-> 🚨 So many options - so confusing! Yes, but always remember that nobody remembers all of this stuff. You will remember what you use on the job regularly. From there, Google is your best friend.
+> 🚨 You probably shouldn't try to memorize any of these at this point. Knowing that these expanded tools exist is enough, Google or an AI assistant can help you fill in the gaps from there. You will remember what you use on the job regularly.
 
 ### 🎓 You Do
 
