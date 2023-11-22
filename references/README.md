@@ -2,15 +2,14 @@
 
 ## Lesson references
 
-Links from lessons:
+- [MDN - `font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [Google Fonts](https://fonts.google.com/)
+- [MDN - Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [MDN - pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes)
+- [MDN - pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
 
-- [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) 
+## Level Up references
 
-- [Google Fonts](https://fonts.google.com/) 
-
-- [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
-
-- [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes)
-
-- [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
-
+- [MDN - Inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Inheritance)
+- [Keegan Street - Specificity Calculator](https://specificity.keegan.st/)
+- [MDN - `font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)

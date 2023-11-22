@@ -1,8 +1,6 @@
-![Intermediate CSS - Level Up - Margin Collapsing](./assets/hero.png)
+# ![Intermediate CSS - Level Up - Margin Collapsing](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, learners will understand the phenomenon of margin collapsing in CSS, including its causes and implications on the design layout. 
-
-# Margin Collapsing
+**Learning objective:** By the end of this lesson, learners will understand the phenomenon of margin collapsing in CSS, including its causes and implications on the design layout.
 
 Margin collapsing is a behavior that occurs when the margins of adjacent block-level elements overlap. This can cause the margins to merge together, resulting in a larger margin than expected.
 
@@ -41,12 +39,10 @@ Here are some examples of margin collapsing:
    </div>
    ```
 
-### How to prevent margin collapsing
+## How to prevent margin collapsing
 
 There are a few ways to prevent margin collapsing:
 
 - **Add padding**: Adding padding to the parent element will create a space between the parent element and its children, preventing their margins from collapsing.
-
-- **Use *flexbox* or *grid*: CSS flexbox and grid layouts provide more control over the layout of your elements and can be used to prevent margin collapsing. 
-
+- **Use flexbox or grid**: CSS flexbox and grid layouts provide more control over the layout of your elements and can be used to prevent margin collapsing.
 - **Float the elements**: Floating the elements will prevent their margins from collapsing.

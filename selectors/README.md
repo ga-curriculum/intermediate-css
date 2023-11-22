@@ -4,7 +4,7 @@
 
 ## Attribute selectors
 
-[**Attribute selectors**](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) allow us to target elements based on their attributes. For example, we can use the following attribute selector to target all elements with the `href` attribute:
+[Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) allow us to target elements based on their attributes. For example, we can use the following attribute selector to target all elements with the `href` attribute:
 
 ```css
 a[href="#about"] { /* Targets anchor tags with an 'href' set to "#about" */
@@ -18,7 +18,7 @@ input[type="checkbox"] { ... } /* Targets checkbox inputs */
 
 ## Pseudo-classes
 
-[**Pseudo-classes**](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allow us to target elements not just based upon their class, type, id, or position in the document, but also their state. For example, whether an `<input type="checkbox">` is checked or not.
+[Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allow us to target elements based on their position in the document and their state. For example, whether or not an `<input type="checkbox">` is checked.
 
 Some common pseudo-classes are:
 
@@ -28,16 +28,12 @@ Some common pseudo-classes are:
 - `:first-child` - Targets the first child element of a parent.
 - `:nth-child` - Targets elements based on their position within a parent.
 - `:nth-of-type` - Targets elements of a specific type based on their position within a parent.
-- `:focus` - Targets elements that currently have user focus, like input fields.
+- `:focus` - Targets elements being focused on by a user, like when an input field is selected.
 - `:hover` - Targets elements when the mouse cursor hovers over them.
- 
- ...and many more!
-
-We can also chain pseudo-classes for an extra fun time! `li:nth-child(3):hover`
 
 ### 🎓 You Do
 
-Use the `:hover` pseudo-class to change the cursor to the little hand-pointer when it’s over any of the elements nested inside the `ul.top-level-list`.
+Use the `:hover` pseudo-class to change the cursor to the little hand-pointer when it's over any elements nested inside the `ul.top-level-list`.
 
 ## Pseudo-elements
 
@@ -45,17 +41,17 @@ Pseudo-elements style specified parts of an element.
 
 Here are some examples:
 
-- `p::first-letter` - Style the first letter of all `<p>` elements 
-- `p::first-line` - Style the first line of all `<p>` elements 
-- `::selection` - Style the part of an element that is selected by the user 
-- `.special::before` - Add content *before* all elements with a class of `.special` 
-- `.special::after` - Add content *after* all elements with a class of `.special`
+- `p::first-letter` - Style the first letter of all `<p>` elements.
+- `p::first-line` - Style the first line of all `<p>` elements.
+- `::selection` - Style the part of an element selected by the user.
+- `.special::before` - Add content *before* all elements with a class of `.special`.
+- `.special::after` - Add content *after* all elements with a class of `.special`.
 
 > 🚨 So many options - so confusing! Yes, but always remember that nobody remembers all of this stuff. You will remember what you use on the job regularly. From there, Google is your best friend.
 
 ### 🎓 You Do
 
-Use the `::first-letter` pseudo-element to set the size of the “C” in “Comments” to be `60px`.
+Use the `::first-letter` pseudo-element to set the size of the "C" in "Comments" to be `60px`.
 
 And here's a link to learn more about [pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements).
 
@@ -65,7 +61,7 @@ Three of the less common combinators are:
 
 ### Child selector (`>`)
 
-The *child selector* is similar to the *descendant selector*, except that it only matches elements that are **direct** children, that is, nested only one-level deep:
+The *child selector* is similar to the *descendant selector*, except that it only matches elements that are direct children, that is, nested only one level deep:
 
 ```css
 /* Selects all <li> tags that are direct children of a <ul.top-level-list> */
@@ -75,7 +71,7 @@ The *child selector* is similar to the *descendant selector*, except that it onl
 }
 ```
 
-After adding this, you’ll notice that our `<li>` elements that are not **direct children** of the `<ul.top-level-list>` are still being colored orange. This is because of *inheritance* which we will discuss soon.
+After adding this, you'll notice that our `<li>` elements that are not direct children of the `<ul.top-level-list>` are still colored orange. This is because of *inheritance*, which is discussed in the [Inheritance Level Up](../level-up/inheritance.md).
 
 ### Adjacent sibling selector (`+`)
 
@@ -89,7 +85,7 @@ This would select `<li>` tags only if they were preceded **immediately** by anot
 
 ### General sibling selector (`~`)
 
-Similar to the *adjacent sibling selector*, it selects all instances of the second element that appear after the first element, at the same level:
+Similar to the *adjacent sibling selector*, it selects all instances of the second element that appear after the first element at the same level:
 
 ```css
 img ~ p {
@@ -100,5 +96,3 @@ img ~ p {
 Would target all `<p>` tags that are siblings following a `<img>`.
 
 > 🧠 The last component listed in a combination selector determines what is targeted! For example, looking above, only `<p>` elements are selected, not the `<img>`.
-
-

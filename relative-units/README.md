@@ -16,22 +16,23 @@ We use CSS units to specify the size of elements in a CSS stylesheets. Relative 
 
 ## Which units to use
 
-The type of CSS units that we should use depends on the specific property that we are styling. For example, if we were styling the width of an element, we could use `%` so that the element always takes up the same amount of its available container. 
+The type of CSS units that we should use depends on the specific property that we are styling. For example, if we were styling the width of an element, we could use `%` so that the element always takes up the same amount of its available container.
 
 For font size, `rem` is a great option. `rem` is predictable - the value will always be based off the same root value. Note that `rem` is based off of the root element's font-size, which defaults to `16px`.
 
-For example: 
+For example:
+
 - 1rem = 16px
 - 1.5rem = 24px
 - 0.5rem = 8px
 
-Unlike `px` units, `rem` is responsive. As the root font size changes, all of the relative values will change accordingly. This has big implications for accessibility - suppose a user changes their preferred font size to 18 in their browser settings. Now, `1rem` equals `18px`s, and so forth: 
+Unlike `px` units, `rem` is responsive. As the root font size changes, all of the relative values will change accordingly. This has big implications for accessibility - suppose a user changes their preferred font size to 18 in their browser settings. Now, `1rem` equals `18px`s, and so forth:
 
 - 1rem = 18px
 - 1.5rem = 27px
 - 0.5rem = 9px
 
-All of our relative units update accordingly, and the font size of the element is dynamically consistent with the rest of the page. 
+All of our relative units update accordingly, and the font size of the element is dynamically consistent with the rest of the page.
 
 Here are some examples of how to use relative units:
 
@@ -54,12 +55,12 @@ img {
 
 ### Pitfalls when specifying height and width
 
-`min-height` and `min-width` are CSS properties rather than units, but they are often used in conjunction with relative units to help build responsive layouts. 
+`min-height` and `min-width` are CSS properties rather than units, but they are often used in conjunction with relative units to help build responsive layouts.
 
-They prevent the height or width of an element from becoming smaller than whatever value is specified. 
+They prevent the height or width of an element from becoming smaller than whatever value is specified.
 
-Using `height` and `min-height` as an example, `min-height` always overrides height. The following code styles a `div` which at minimum is `10rem` tall, but can expand up to `100%` of the available height of the container: 
- 
+Using `height` and `min-height` as an example, `min-height` always overrides height. The following code styles a `div` which at minimum is `10rem` tall, but can expand up to `100%` of the available height of the container:
+
 ```css
 div {
   /* div takes up full height of the container element */

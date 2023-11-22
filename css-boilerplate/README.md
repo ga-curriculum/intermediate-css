@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to explain what CSS boilerplate is and why it's useful.
 
-## CSS Boilerplate 
+## CSS Boilerplate
 
 CSS boilerplate refers to a set of pre-defined CSS rules and styles that are commonly used as a starting point in web development. The purpose of CSS boilerplate is to provide a consistent and normalized foundation for styling web pages, making it easier to create cross-browser and cross-platform compatible designs. It is typically used to normalize the behavior of different browsers and to provide a basic set of styles for common HTML elements.
 
@@ -31,4 +31,4 @@ body {
 }
 ```
 
-If you're curious about `dvh`, check out [this article](https://ishadeed.com/article/new-viewport-units/) for more details. 
+If you're curious about `dvh`, check out [this article](https://ishadeed.com/article/new-viewport-units/) for more details.

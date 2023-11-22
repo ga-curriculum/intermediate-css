@@ -2,12 +2,14 @@
 
 ## About
 
-While beginner CSS lays a solid foundation, advancing into more complex concepts really enhances a developer's skill set. Understanding elements like box-sizing, relative units, and advanced selectors allows for greater precision and flexibility in design. This ensures designs are compatible across different screen sizes and devices. As developers advance in their careers, familiarity with these more advanced techniques becomes a norm in professional settings, enabling students to have a smoother integration into teams where they could be managing complex stylesheets.
+While beginner CSS lays a solid foundation, advancing into more complex concepts really enhances a developer's skill set. Understanding elements like box-sizing, relative units, and advanced selectors allows for greater precision and flexibility in design. This ensures designs are compatible across different screen sizes and devices.
+
+As developers advance in their careers, familiarity with these more advanced techniques becomes a norm in professional settings, enabling students to have a smoother integration into teams where they could be managing complex stylesheets.
 
 ## Prerequisites
 
 - Intro to HTML
-- Intro to CSS 
+- Intro to CSS
 
 ## Content
 
@@ -20,7 +22,6 @@ While beginner CSS lays a solid foundation, advancing into more complex concepts
 | [Relative Units](./relative-units/README.md)   | -- | -- | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each              |
 | [CSS Boilerplate](./css-boilerplate/README.md) | -- | -- | Common CSS boilerplate types, Normalize, Reset                                    |
 | **Total content**                              | -- | -- |                                                                                   |
-
 
 ## Level Up content
 
@@ -41,7 +42,7 @@ While beginner CSS lays a solid foundation, advancing into more complex concepts
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Hub](./internal-resources/video-hub/README.md)
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 

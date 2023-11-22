@@ -6,12 +6,12 @@ This release modularizes the legacy Intermediate CSS lecture and provides some o
 
 ### Release details
 
-**Changes**
+#### Changes
 
 - Changes focus from units to relative units.
-- Moves inheritance, internal and inline styling, margin collapsing, and specificity to level up material. 
+- Moves inheritance, internal and inline styling, margin collapsing, and specificity to level up material.
 - Links setup in directory.
 
-**Removals**
+#### Removals
 
 - Removes content that is covered in intro section under new module structure (external stylesheets, absolute units).

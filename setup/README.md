@@ -5,6 +5,7 @@ Open your Terminal application and navigate to your ~/code/sei/lectures director
 ```bash
 cd ~/code/sei/lectures
 ```
+
 Make a new directory called `intermediate-css`, then enter this directory:
 
 ```bash
@@ -23,6 +24,7 @@ Then, create an `index.html` file, as well as a `style.css` file that lives insi
 ```bash
 touch index.html css/style.css
 ```
+
 With the files created, open the contents of the directory in VS Code:
 
 ```bash
@@ -36,6 +38,7 @@ Open the `index.html` file and add HTML boilerplate. Then make use of the `style
 ```
 
 Add the following HTML below the closing `</head>` tag:
+
 ```html
 <body>
   <article>
@@ -76,4 +79,4 @@ h1 {
 }
 ```
 
-Open the `index.html` file in your browser. 
+Open the `index.html` file in your browser.

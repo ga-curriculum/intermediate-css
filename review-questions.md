@@ -26,7 +26,6 @@ This section provides questions that can be used in various teaching formats. Th
 - Which pseudo-class would you use for styling an element when the mouse cursor hovers over it?
 - How would you select all `li` elements that are *direct* children of `ul` elements?
 
-
 ## Relative Units
 
 ❓ Review Questions
@@ -45,15 +44,10 @@ This section provides questions that can be used in various teaching formats. Th
 
 ## Internal and Inline Styling
 
-
 ## Inheritance
-
 
 ## Specificity
 
-
 ## Margin Collapsing
 
-
 ## Web-safe Fonts
-
