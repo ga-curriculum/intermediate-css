@@ -1,4 +1,4 @@
-# ![Intermediate CSS - Level Up - Inheritance](./assets/hero.png)
+# ![Intermediate CSS - Level Up - Inheritance](./assets/inheritance.png)
 
 **Learning objective:** By the end of this lesson students will be able to demonstrate their understanding of css inheritance by overriding inherited styles using the `initial` value.
 

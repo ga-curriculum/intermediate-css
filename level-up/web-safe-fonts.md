@@ -1,4 +1,4 @@
-# ![Intermediate CSS - Level Up - Web-safe Fonts](./assets/hero.png)
+# ![Intermediate CSS - Level Up - Web-safe Fonts](./assets/web-safe-fonts.png)
 
 **Learning objective:** By the end of this lesson, students will understand how to choose and implement web-safe fonts.
 
