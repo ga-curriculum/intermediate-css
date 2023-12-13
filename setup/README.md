@@ -1,9 +1,9 @@
 # ![Intermediate CSS - Setup](./assets/hero.png)
 
-Open your Terminal application and navigate to your ~/code/sei/lectures directory:
+Open your Terminal application and navigate to your ~/code/ga/lectures directory:
 
 ```bash
-cd ~/code/sei/lectures
+cd ~/code/ga/lectures
 ```
 
 Make a new directory called `intermediate-css`, then enter this directory:
@@ -43,11 +43,11 @@ Add the following HTML below the closing `</head>` tag:
 <body>
   <article>
     <a href="#about">About Section</a>
-    <h1>Intermediate to CSS</h1>
+    <h1>Intermediate CSS</h1>
     <p id="about">More About CSS</p>
     <div>This is a DIV</div>
-    <div class="crazy">This is another DIV</div>
-    <div class="crazy super-cool">
+    <div class="fun">This is another DIV</div>
+    <div class="fun super-cool">
       <p>This is a paragraph inside of the third DIV</p>
     </div>
     
@@ -63,6 +63,12 @@ Add the following HTML below the closing `</head>` tag:
         </ul>
       </li>
     </ul>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+      <label for="year">Year:</label>
+      <input type="number" id="year">
+    </form>
   </article>
 </body>
 ```

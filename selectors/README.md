@@ -4,16 +4,10 @@
 
 ## Attribute selectors
 
-[Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) allow us to target elements based on their attributes. For example, we can use the following attribute selector to target all elements with the `href` attribute:
+[Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) allow us to target elements based on their attributes. For example, we can use the following attribute selector to target all `<input>` elements with a value of `"number"` on the `type` attribute:
 
 ```css
-a[href="#about"] { /* Targets anchor tags with an 'href' set to "#about" */
-  background: red;
-  top: 0;
-  position: fixed;
-} 
-
-input[type="checkbox"] { ... } /* Targets checkbox inputs */
+input[type="number"] { ... } /* Targets checkbox inputs */
 ```
 
 ## Pseudo-classes
@@ -67,28 +61,28 @@ The *child selector* is similar to the *descendant selector*, except that it onl
 /* Selects all <li> tags that are direct children of a <ul.top-level-list> */
 
 .top-level-list > li {
-  color: orange;
+  border: solid 1px orange;
 }
 ```
 
-After adding this, you'll notice that our `<li>` elements that are not direct children of the `<ul.top-level-list>` are still colored orange. This is because of *inheritance*, which is discussed in the [Inheritance Level Up](../level-up/inheritance.md).
+After adding this, you'll notice that the `<li>` elements that are not direct children of the `<ul.top-level-list>` do not have individual borders.
 
 ### Adjacent sibling selector (`+`)
 
 ```css
-li + li {
+div + div {
   color: green;
 }
 ```
 
-This would select `<li>` tags only if they were preceded **immediately** by another `<li>` at the same level (sibling) and give them a color of green.
+This would select `<div>` tags only if they were preceded **immediately** by another `<div>` at the same level (sibling) and give them a color of green. After adding this, you'll notice that the text inside of the `<p>` element that is direct child of the third `<div>` are colored green. This is because of *inheritance*, which is discussed in the [Inheritance Level Up](../level-up/inheritance.md).
 
 ### General sibling selector (`~`)
 
 Similar to the *adjacent sibling selector*, it selects all instances of the second element that appear after the first element at the same level:
 
 ```css
-img ~ p {
+input ~ input {
   border: 1px solid red;
 }
 ```

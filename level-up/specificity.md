@@ -18,9 +18,9 @@ div {
 
 A conflict exists because the same `<div>` has two css selectors applied with a color.
 
-The selector with the **highest** *specificity* wins.
+The selector with the highest *specificity* wins.
 
-Specificity is based upon the following priorities, where *Priority A* has higher specificity:
+Specificity is based upon the following priorities, where priority A has highest specificity and priority D has the lowest specificity:
 
 - Priority A: inline styling
 - Priority B: IDs
@@ -29,7 +29,7 @@ Specificity is based upon the following priorities, where *Priority A* has highe
 
 So, in the above example, we'd expect the `div` to be blue, as classes take have a higher specificity than elements.
 
-Internally, the browser computes CSS Specificity as shown below.
+Internally, the browser computes specificity as shown below.
 
 ![Specificity calculator graphic](./assets/specificity-calculator.png)
 

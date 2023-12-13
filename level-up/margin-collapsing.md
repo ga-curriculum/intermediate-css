@@ -2,42 +2,64 @@
 
 **Learning objective:** By the end of this lesson, learners will understand the phenomenon of margin collapsing in CSS, including its causes and implications on the design layout.
 
-Margin collapsing is a behavior that occurs when the margins of adjacent block-level elements overlap. This can cause the margins to merge together, resulting in a larger margin than expected.
+Margin collapsing is a behavior that occurs when the margins of adjacent block-level elements overlap. This can cause the margins to merge, resulting in a smaller margin than expected.
 
-Margin collapsing only occurs between vertically adjacent block-level elements. Inline elements and floated elements do not collapse their margins.
+Margin collapsing only occurs between vertically adjacent block-level elements. Inline elements do not collapse their margins.
 
-Consider the following styles as you explore the examples below.
+Let's see a demonstration of this with 2 `<p>` elements:
+
+```html
+<p id="first">First paragraph</p>
+<p id="second">Second paragraph</p>
+```
+
+and some styling to go with them:
 
 ```css
-div {
-  margin: 10px 0;
+#first {
+  margin-bottom: 16px;
 }
 
-img {
-  margin: 10px 0;
+#second {
+  margin-top: 16px;
 }
 ```
 
-Here are some examples of margin collapsing:
+This is the simplest example of margin collapsing that we can have. Because the margin below the first paragraph is 16px and the margin above the second paragraph is 16px, the actual amount of space between the two elements is 16px.
 
-1. In this example, the margins of the `.box1` and `.box2` elements will collapse, resulting in a single margin between the two elements. Div elements are `block` by default.
+Instead of the margins being added together, they overlap or, more technically, collapse. Let's take this a little further by changing our CSS:
 
-   ```html
-   <div class="container">
-     <div class="box1">Box 1</div>
-     <div class="box2">Box 2</div>
-   </div>
-   ```
+```css
+#first {
+  margin-bottom: 24px;
+}
 
-2. In this example, the margin of the `.box1` element will not collapse with the margin of the image, because the image is an `inline` element by default.
+#second {
+  margin-top: 16px;
+}
+```
 
-   ```html
-   <div class="container">
-     <div class="box1">Box 1</div>
-     <img src="image.jpg" alt="Image">
-     <div class="box2">Box 2</div>
-   </div>
-   ```
+In this code, we've made the bottom margin of the first paragraph 24px and kept the top margin of the second paragraph 16px.
+
+Now, the actual space between elements is 24px - the margins are still collapsing instead of being added together. The bottom margin of the first element is used because it has the largest space between the two elements.
+
+Note that if we insert a block element or an inline element without margins between these two elements, the margins will no longer collapse. Here's an example:
+
+```html
+<p id="first">First paragraph</p>
+<div id="between">A div element with no margin</div>
+<p id="second">Second paragraph</p>
+```
+
+and some styling:
+
+```css
+#between {
+  margin: 0;
+}
+```
+
+There should now be a 24px margin below the first paragraph and a 16px margin above the second paragraph.
 
 ## How to prevent margin collapsing
 
@@ -45,4 +67,3 @@ There are a few ways to prevent margin collapsing:
 
 - **Add padding**: Adding padding to the parent element will create a space between the parent element and its children, preventing their margins from collapsing.
 - **Use flexbox or grid**: CSS flexbox and grid layouts provide more control over the layout of your elements and can be used to prevent margin collapsing.
-- **Float the elements**: Floating the elements will prevent their margins from collapsing.

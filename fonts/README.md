@@ -37,30 +37,29 @@ If a sidebar doesn't automatically open after selecting a font variation, open i
 
 ![Select the shopping bag icon](./assets/originals/google-fonts-2.png)
 
-Next, choose `<link>`:
+Next, choose `@inport`:
 
-![Select link](./assets/originals/google-fonts-3.png)
+![The @import option selected, the text inside the style tags is highlighted`](./assets/originals/google-fonts-4.png)
 
-Copy the entire shaded block and paste it into the `<head>` of your HTML document above your external stylesheet.
+Copy the text ***excluding*** the opening and closing `<style>` tags. Paste it above the rest of the code in your CSS file, as shown here:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link 
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" 
-    rel="stylesheet"
-  >
-  <!-- external stylesheet below -->
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+```css
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap')
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
 ```
 
-> ❓ Why do we need to add the google font stylesheet above our stylesheet?
-
-Keep in mind that if you decide to add more Google fonts to your project, you'll need to update the html link.
+Keep in mind that if you decide to add more Google fonts to your project, you'll need to update this link.
 
 ### Apply your new font
 
@@ -72,4 +71,4 @@ body {
 }
 ```
 
-Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on fonts that are safe to use in web development.
+Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on other fonts that are safe to use in web development.

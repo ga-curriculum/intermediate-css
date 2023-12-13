@@ -2,16 +2,16 @@
 
 **Learning objective:** By the end of this lesson, learners will be able to differentiate between inline and internal styles in CSS, and describe their use cases in web design.
 
-There are two additional ways to add styling to a web page:
+So far we've discussed adding external stylesheets to webpages by adding a link to them in a `<link>` tag. There are two additional ways to add styling to a web page:
 
+- Inline styles
 - Internal stylesheets
-- External stylesheets
 
 These techniques are not mutually exclusive; you can use one or more of them on the same webpage.
 
 ## Inline styles
 
-An **inline** style can be used to apply styling to a single element, using the `style` attribute.
+An inline style can be used to apply styling to a single element, using the `style` attribute.
 
 To demonstrate inline styling, let's use it to change the color of the font of an `h1` element:
 
@@ -22,11 +22,9 @@ To demonstrate inline styling, let's use it to change the color of the font of a
 
 Using inline styles breaks our separation of concerns by mixing content with styling; therefore, avoid using this technique unless there's a good reason to do so - for example, when testing or debugging styles.
 
-> ⚠️ Several JS libraries and frameworks such as AngularJS add inline styles dynamically to perform their magic. ReactJS even encourages the use of inline styling "components" dynamically. However, in general, developers rarely use inline styling for their application's CSS.
-
 ## Internal Stylesheets
 
-The next technique available to add styling is **internal stylesheets**.
+The next technique available to add styling is internal stylesheets.
 
 An internal stylesheet is created by using a `<style>` element nested within the document's `<head>` element:
 
@@ -35,7 +33,7 @@ An internal stylesheet is created by using a `<style>` element nested within the
   <meta charset="UTF-8">
   <title>Intermediate CSS</title>
   <!-- bring in an external stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <!-- inline stylesheet -->
   <style>
     h1, h2 {
@@ -49,9 +47,9 @@ Inline stylesheets are not the preferred method to add styles to your web page.
 
 ## Precedence
 
-When multiple CSS styles are defined for a single element, browsers use a mechanism called **precedence** determine which one to apply.
+When multiple CSS styles are defined for a single element, browsers use a mechanism called ***precedence*** to determine which one to apply.
 
-Inline styles have the highest precedence, followed by internal stylesheets and then external stylesheets.
+Inline styles have the highest precedence, followed by internal stylesheets and then external stylesheets added with at `<link>` tag.
 
 This hierarchy means that if more than one type of stylesheet is being used, any inline styles will override those defined in internal or external stylesheets.
 
@@ -67,7 +65,7 @@ Take a moment and think about this question:
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <style>
     p {
       color: red !important;

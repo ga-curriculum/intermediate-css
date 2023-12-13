@@ -48,7 +48,7 @@ p {
 }
 
 /* Set the margin of an element to 10% of its container element */
-img {
+input {
   margin: 10%;
 }
 ```
