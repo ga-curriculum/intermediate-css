@@ -6,9 +6,9 @@
 
 When choosing a font for our projects, we can use a pre-installed system font, a web-safe font, or import a font from a library like Google Fonts.
 
-System fonts are a good option to use because they are guaranteed to be available on all users' devices. This means that our website will look the same for everyone, regardless of what operating system or browser they are using.
+System fonts are a good option to use because they are guaranteed to be available on all users' devices. By specifying this font name we guarantee we are using a font native to the operating system the user is viewing the site on.
 
-To use a system font in CSS, we specify a special font name (`system-ui`) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property. By specifying this font name we guarantee we are using a font native to the operating system the user is viewing the site on.
+To use a system font in CSS, we specify a special font name (`system-ui`) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property.
 
 ```css
 body {
