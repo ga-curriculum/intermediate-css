@@ -1,4 +1,4 @@
-# ![Intermediate CSS - Level Up - Specificity](./assets/hero.png)
+# ![Intermediate CSS - Level Up - Specificity](./assets/specificity.png)
 
 **Learning objective:** By the end of this lesson, learners will be able to explain the concept of CSS specificity, determine the specificity of different selectors, and resolve conflicts in CSS rules to predict and ensure the intended styling outcome.
 

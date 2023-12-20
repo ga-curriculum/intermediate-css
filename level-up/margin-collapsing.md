@@ -1,4 +1,4 @@
-# ![Intermediate CSS - Level Up - Margin Collapsing](./assets/hero.png)
+# ![Intermediate CSS - Level Up - Margin Collapsing](./assets/margin-collapsing.png)
 
 **Learning objective:** By the end of this lesson, learners will understand the phenomenon of margin collapsing in CSS, including its causes and implications on the design layout.
 

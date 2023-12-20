@@ -87,6 +87,6 @@ input ~ input {
 }
 ```
 
-Would target all `<p>` tags that are siblings following a `<img>`.
+Would target all `<input>` tags that are siblings following an `<input>`.
 
 > 🧠 The last component listed in a combination selector determines what is targeted! For example, looking above, only `<p>` elements are selected, not the `<img>`.
