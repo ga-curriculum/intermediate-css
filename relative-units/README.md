@@ -1,4 +1,4 @@
-# ![Intermediate CSS - CSS Units](./assets/hero.png)
+# ![Intermediate CSS - Relative Units](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use relative units to specify element sizes in CSS.
 
