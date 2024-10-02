@@ -74,4 +74,4 @@ body {
 }
 ```
 
-Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on other fonts that are safe to use in web development.
+Check out the lesson on `Web-safe Fonts` for more details on other fonts that are safe to use in web development.
