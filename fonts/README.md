@@ -1,4 +1,7 @@
-# ![Intermediate CSS - Fonts](./assets/hero.png)
+<h1>
+  <span class="headline">Intermediate CSS</span>
+  <span class="subhead">Fonts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of system fonts and importing fonts from Google Fonts.
 
