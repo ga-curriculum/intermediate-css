@@ -25,7 +25,7 @@ As developers advance in their careers, familiarity with these more advanced tec
 | [Specificity](../specificity/README.md)                                 |   4 min    | [Link](https://generalassembly.wistia.com/medias/ob0taqxh9y) | Ranking style priority with specificity.                                           |
 | [Margin Collapsing](../margin-collapsing/README.md)                     |   5 min    | [Link](https://generalassembly.wistia.com/medias/bj82cxk9fc) | Identify and avoid margin collapsing.                                              |
 | [Web-safe Fonts](../web-safe-fonts/README.md)                           |   2 min    | [Link](https://generalassembly.wistia.com/medias/v82cvd87sc) | Implement web-safe fonts.                                                          |
-| **Total content**                                                       |   66 min   |                              --                              |                                                                                    |
+| **Total content**                                                       |   66 min   |                                                              |                                                                                    |
 
 ## References
 

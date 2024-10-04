@@ -19,7 +19,7 @@ As developers advance in their careers, familiarity with these more advanced tec
 | [Selectors](../selectors/README.md)             |   18 min   | [Link](https://generalassembly.wistia.com/medias/h6gpkkumya) | Attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS. |
 | [Relative Units](../relative-units/README.md)   |   6 min    | [Link](https://generalassembly.wistia.com/medias/odcnw4hss4) | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each.              |
 | [CSS Boilerplate](../css-boilerplate/README.md) |   4 min    | [Link](https://generalassembly.wistia.com/medias/907bbs63sq) | Common CSS boilerplate types, Normalize, Reset.                                    |
-| **Total content**                               |   44 min   |                              --                              |                                                                                    |
+| **Total content**                               |   44 min   |                                                              |                                                                                    |
 
 ## Level Up content
 
@@ -30,7 +30,7 @@ As developers advance in their careers, familiarity with these more advanced tec
 | [Specificity](../specificity/README.md)                                 |   4 min    | [Link](https://generalassembly.wistia.com/medias/ob0taqxh9y) | Ranking style priority with specificity.                                   |
 | [Margin Collapsing](../margin-collapsing/README.md)                     |   5 min    | [Link](https://generalassembly.wistia.com/medias/bj82cxk9fc) | Identify and avoid margin collapsing.                                      |
 | [Web-safe Fonts](../web-safe-fonts/README.md)                           |   2 min    | [Link](https://generalassembly.wistia.com/medias/v82cvd87sc) | Implement web-safe fonts.                                                  |
-| **Total Level Up content**                                              |   22 min   |                              --                              |                                                                            |
+| **Total Level Up content**                                              |   22 min   |                                                              |                                                                            |
 
 ## Reference
 
