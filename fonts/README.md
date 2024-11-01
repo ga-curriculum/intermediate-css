@@ -1,4 +1,7 @@
-# ![Intermediate CSS - Fonts](./assets/hero.png)
+<h1>
+  <span class="headline">Intermediate CSS</span>
+  <span class="subhead">Fonts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of system fonts and importing fonts from Google Fonts.
 
@@ -71,4 +74,4 @@ body {
 }
 ```
 
-Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on other fonts that are safe to use in web development.
+Check out the lesson on `Web-safe Fonts` for more details on other fonts that are safe to use in web development.

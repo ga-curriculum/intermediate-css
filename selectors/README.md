@@ -1,4 +1,7 @@
-# ![Intermediate CSS - Selectors](./assets/hero.png)
+<h1>
+  <span class="headline">Intermediate CSS</span>
+  <span class="subhead">Selectors</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to target specific elements on a page with attribute selectors, pseudo-classes, pseudo-elements, and uncommon combinators.
 
@@ -7,7 +10,9 @@
 [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) allow us to target elements based on their attributes. For example, we can use the following attribute selector to target all `<input>` elements with a value of `"number"` on the `type` attribute:
 
 ```css
-input[type="number"] { ... } /* Targets checkbox inputs */
+input[type='number'] {
+  ...;
+} /* Targets checkbox inputs */
 ```
 
 ## Pseudo-classes
@@ -38,8 +43,8 @@ Here are some examples:
 - `p::first-letter` - Style the first letter of all `<p>` elements.
 - `p::first-line` - Style the first line of all `<p>` elements.
 - `::selection` - Style the part of an element selected by the user.
-- `.special::before` - Add content *before* all elements with a class of `.special`.
-- `.special::after` - Add content *after* all elements with a class of `.special`.
+- `.special::before` - Add content _before_ all elements with a class of `.special`.
+- `.special::after` - Add content _after_ all elements with a class of `.special`.
 
 > 🚨 You probably shouldn't try to memorize any of these at this point. Knowing that these expanded tools exist is enough, Google or an AI assistant can help you fill in the gaps from there. You will remember what you use on the job regularly.
 
@@ -55,7 +60,7 @@ Three of the less common combinators are:
 
 ### Child selector (`>`)
 
-The *child selector* is similar to the *descendant selector*, except that it only matches elements that are direct children, that is, nested only one level deep:
+The _child selector_ is similar to the _descendant selector_, except that it only matches elements that are direct children, that is, nested only one level deep:
 
 ```css
 /* Selects all <li> tags that are direct children of a <ul.top-level-list> */
@@ -75,11 +80,11 @@ div + div {
 }
 ```
 
-This would select `<div>` tags only if they were preceded **immediately** by another `<div>` at the same level (sibling) and give them a color of green. After adding this, you'll notice that the text inside of the `<p>` element that is direct child of the third `<div>` are colored green. This is because of *inheritance*, which is discussed in the [Inheritance Level Up](../level-up/inheritance.md).
+This would select `<div>` tags only if they were preceded **immediately** by another `<div>` at the same level (sibling) and give them a color of green. After adding this, you'll notice that the text inside of the `<p>` element that is direct child of the third `<div>` are colored green. This is because of _inheritance_, which you can learn about more in the `Inheritance` lesson.
 
 ### General sibling selector (`~`)
 
-Similar to the *adjacent sibling selector*, it selects all instances of the second element that appear after the first element at the same level:
+Similar to the _adjacent sibling selector_, it selects all instances of the second element that appear after the first element at the same level:
 
 ```css
 input ~ input {
