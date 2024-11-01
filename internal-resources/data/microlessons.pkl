@@ -10,7 +10,7 @@ setup = new Template.Microlesson {
 }
 
 boxSizing = new Template.Microlesson {
-  friendlyName = "The <code>box-sizing</code> Property"
+  friendlyName = "The  box-sizing  Property"
   dirName = "box-sizing"
   type = "Content"
   videoUrl = ""
