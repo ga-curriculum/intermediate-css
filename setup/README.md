@@ -22,7 +22,7 @@ Create a directory called `css`:
 mkdir css
 ```
 
-Then, create an `index.html` file, as well as a `style.css` file that lives inside the `css` directory. These files will hold your work for this lecture:
+Then, create an `index.html` file, and a `style.css` file that lives inside the `css` directory. These files will hold your work for this lecture:
 
 ```bash
 touch index.html css/style.css

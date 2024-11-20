@@ -9,7 +9,7 @@
 
 When choosing a font for our projects, we can use a pre-installed system font, a web-safe font, or import a font from a library like Google Fonts.
 
-System fonts are a good option to use because they are guaranteed to be available on all users' devices. By specifying this font name we guarantee we are using a font native to the operating system the user is viewing the site on.
+System fonts are a good option because they are guaranteed to be available on all users' devices. By specifying this font name, we guarantee that a font native to the operating system is being used.
 
 To use a system font in CSS, we specify a special font name (`system-ui`) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property.
 
@@ -32,7 +32,7 @@ By specifying a fallback font, such as `sans-serif`, we ensure that our text wil
 
 Navigate to [https://fonts.google.com/](https://fonts.google.com/) and choose the font(s) you want.
 
-Once on the page for a specific font, select the font variations that you want to use on your site (if there are multiple).
+Once on the page for a specific font, select the font variations you want to use on your site (if there are multiple).
 
 ![Select the font variation on google fonts](./assets/originals/google-fonts-1.png)
 
@@ -66,7 +66,7 @@ Keep in mind that if you decide to add more Google fonts to your project, you'll
 
 ### Apply your new font
 
-After linking or importing your new font, make sure to apply it to either the entire HTML page by updating the `font-family` property in the body or to specific text elements by modifying their `font-family` property individually.
+After linking or importing your new font, apply it to either the entire HTML page by updating the `font-family` property in the body or to specific text elements by modifying their `font-family` property individually.
 
 ```css
 body {

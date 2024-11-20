@@ -5,7 +5,7 @@
 
 **Learning objective:** By the end of this lesson, students will understand how to choose and implement web-safe fonts.
 
-When choosing a font for our projects, we can use web-safe fonts that are virtually guaranteed to be available on all users' devices. This means that our website will look the same for everyone, regardless of what operating system or browser they are using. Here are fonts that are available on the vast majority browsers:
+When choosing a font for our projects, we can use web-safe fonts that are virtually guaranteed to be available on all users' devices. This means that our website will look the same for everyone, regardless of their operating system or browser. Here are fonts that are available on the vast majority of browsers:
 
 - Arial (sans-serif)
 - Verdana (sans-serif)

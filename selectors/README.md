@@ -43,10 +43,10 @@ Here are some examples:
 - `p::first-letter` - Style the first letter of all `<p>` elements.
 - `p::first-line` - Style the first line of all `<p>` elements.
 - `::selection` - Style the part of an element selected by the user.
-- `.special::before` - Add content _before_ all elements with a class of `.special`.
-- `.special::after` - Add content _after_ all elements with a class of `.special`.
+- `.special::before` - Add content *before* all elements with a class of `.special`.
+- `.special::after` - Add content *after* all elements with a class of `.special`.
 
-> 🚨 You probably shouldn't try to memorize any of these at this point. Knowing that these expanded tools exist is enough, Google or an AI assistant can help you fill in the gaps from there. You will remember what you use on the job regularly.
+> 🚨 You probably shouldn't try to memorize any of these at this point. Knowing these expanded tools exist is enough; Google or an AI assistant can help you fill in the gaps. You will remember what you use on the job regularly.
 
 ### 🎓 You Do
 
@@ -60,7 +60,7 @@ Three of the less common combinators are:
 
 ### Child selector (`>`)
 
-The _child selector_ is similar to the _descendant selector_, except that it only matches elements that are direct children, that is, nested only one level deep:
+The *child selector* is similar to the *descendant selector*, except that it only matches elements that are direct children, that is, nested only one level deep:
 
 ```css
 /* Selects all <li> tags that are direct children of a <ul.top-level-list> */
@@ -80,11 +80,11 @@ div + div {
 }
 ```
 
-This would select `<div>` tags only if they were preceded **immediately** by another `<div>` at the same level (sibling) and give them a color of green. After adding this, you'll notice that the text inside of the `<p>` element that is direct child of the third `<div>` are colored green. This is because of _inheritance_, which you can learn about more in the `Inheritance` lesson.
+This would select `<div>` tags only if they were preceded **immediately** by another `<div>` at the same level (sibling) and give them a color of green. After adding this, you'll notice that the text inside the `<p>` element that is the direct child of the third `<div>` is colored green. This is because of *inheritance*, which you can learn about more in the `Inheritance` lesson.
 
 ### General sibling selector (`~`)
 
-Similar to the _adjacent sibling selector_, it selects all instances of the second element that appear after the first element at the same level:
+Similar to the *adjacent sibling selector*, it selects all instances of the second element that appear after the first element at the same level:
 
 ```css
 input ~ input {
@@ -92,6 +92,4 @@ input ~ input {
 }
 ```
 
-Would target all `<input>` tags that are siblings following an `<input>`.
-
-> 🧠 The last component listed in a combination selector determines what is targeted! For example, looking above, only `<p>` elements are selected, not the `<img>`.
+This would target all `<input>` tags that are siblings following an `<input>`.

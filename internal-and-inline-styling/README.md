@@ -3,18 +3,18 @@
   <span class="subhead">Internal and Inline Styling</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, learners will be able to differentiate between inline and internal styles in CSS, and describe their use cases in web design.
+**Learning objective:** By the end of this lesson, learners will be able to differentiate between inline and internal styles in CSS and describe their use cases in web design.
 
-So far we've discussed adding external stylesheets to webpages by adding a link to them in a `<link>` tag. There are two additional ways to add styling to a web page:
+So far, we've discussed adding external stylesheets to webpages by adding a link to them in a `<link>` tag. There are two additional ways to add styling to a web page:
 
 - Inline styles
 - Internal stylesheets
 
-These techniques are not mutually exclusive; you can use one or more of them on the same webpage.
+These techniques are not mutually exclusive; you can use one or more on the same webpage.
 
 ## Inline styles
 
-An inline style can be used to apply styling to a single element, using the `style` attribute.
+An inline style can apply styling to a single element using the `style` attribute.
 
 To demonstrate inline styling, let's use it to change the color of the font of an `h1` element:
 
@@ -54,15 +54,15 @@ When multiple CSS styles are defined for a single element, browsers use a mechan
 
 Inline styles have the highest precedence, followed by internal stylesheets and then external stylesheets added with at `<link>` tag.
 
-This hierarchy means that if more than one type of stylesheet is being used, any inline styles will override those defined in internal or external stylesheets.
+This hierarchy means that if more than one type of stylesheet is used, any inline styles will override those defined in internal or external stylesheets.
 
-One exception to this rule, however, is the `!important` declaration. This can be used to override any other style, regardless of the stylesheet precedence.
+One exception to this rule, however, is the `!important` declaration. It overrides any other style, regardless of the stylesheet precedence.
 
-> ⚠ Use the `!important` declaration sparingly. Overuse can make your CSS difficult to maintain and debug.
+> ⚠ Use the `!important` declaration sparingly. Overuse can make it challenging to maintain and debug your CSS.
 
 Take a moment and think about this question:
 
-> ❓ In the following code, which rule do you think will take precedence?
+> ❓ In the following code, which rule will take precedence?
 
 ```html
 <!DOCTYPE html>
