@@ -1,7 +1,4 @@
-<h1>
-  <span class="headline">Intermediate CSS</span>
-  <span class="subhead">Fonts</span>
-</h1>
+# ![Intermediate CSS - Fonts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will understand how to choose and implement fonts in web development, including the use of system fonts and importing fonts from Google Fonts.
 
@@ -9,7 +6,7 @@
 
 When choosing a font for our projects, we can use a pre-installed system font, a web-safe font, or import a font from a library like Google Fonts.
 
-System fonts are a good option because they are guaranteed to be available on all users' devices. By specifying this font name, we guarantee that a font native to the operating system is being used.
+System fonts are a good option to use because they are guaranteed to be available on all users' devices. By specifying this font name we guarantee we are using a font native to the operating system the user is viewing the site on.
 
 To use a system font in CSS, we specify a special font name (`system-ui`) in the [`font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) property.
 
@@ -21,33 +18,43 @@ body {
 
 And here's the result:
 
-![The System UI fonts, and their respective Operating Systems.](./assets/system-ui.png)
+![The System UI fonts, and their respective Operating Systems.](./assets/system-ui.png)  
 Image from [system-fonts on GitHub](https://github.com/system-fonts/modern-font-stacks).
 
 By specifying a fallback font, such as `sans-serif`, we ensure that our text will still be readable even if the requested font isn't available.
 
 ## Google Fonts
 
-[Google Fonts](https://fonts.google.com/) are a great option if we want to use a font that is not pre-installed on the user's device. Google Fonts are free to use and have a wide variety of fonts to choose from, including serif, sans-serif, display, and handwriting fonts.
+[Google Fonts](https://fonts.google.com/) are a great option if we want to use a font that is not pre-installed on the user's device. Google Fonts are free to use and offer a wide variety of styles including serif, sans-serif, display, and handwriting fonts.
 
-Navigate to [https://fonts.google.com/](https://fonts.google.com/) and choose the font(s) you want.
+### How to use Google Fonts (Updated Process)
 
-Once on the page for a specific font, select the font variations you want to use on your site (if there are multiple).
+1. Go to [https://fonts.google.com/](https://fonts.google.com/).
+2. Browse or search for a font you like. Click on the font to open its detail page.
+3. Click the **"Get font"** button in the top right corner. This opens a panel with embedding options.
+4. Select the **"Get embed code"** option. 
+5. Choose **`@import`** under the **"Web"** section tab.
+6. Copy the `@import` code. It will look something like this:
 
-![Select the font variation on google fonts](./assets/originals/google-fonts-1.png)
-
-If a sidebar doesn't automatically open after selecting a font variation, open it by clicking on the **shopping bag** icon in the top right:
-
-![Select the shopping bag icon](./assets/originals/google-fonts-2.png)
-
-Next, choose `@inport`:
-
-![The @import option selected, the text inside the style tags is highlighted`](./assets/originals/google-fonts-4.png)
-
-Copy the text ***excluding*** the opening and closing `<style>` tags. Paste it above the rest of the code in your CSS file, as shown here:
+When you choose the **@import** option from Google Fonts, the site will give you a block of code that looks like this:
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap')
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+</style>
+```
+
+You **do not** need the `<style>` tags that wrap the `@import` line. Just copy the `@import` line by itself and paste it at the **top of your CSS file**, like this:
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+```
+
+
+7. Paste this line at the very top of your CSS file — before any other styles.
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -62,11 +69,13 @@ h1 {
 }
 ```
 
-Keep in mind that if you decide to add more Google fonts to your project, you'll need to update this link.
+> ✅ If you add more fonts later, you will need to update this import line to include the new fonts.
+
+---
 
 ### Apply your new font
 
-After linking or importing your new font, apply it to either the entire HTML page by updating the `font-family` property in the body or to specific text elements by modifying their `font-family` property individually.
+After importing the font, use the `font-family` property to apply it to your page. You can apply it to the whole page or to specific elements.
 
 ```css
 body {
@@ -74,4 +83,4 @@ body {
 }
 ```
 
-Check out the lesson on `Web-safe Fonts` for more details on other fonts that are safe to use in web development.
+Check out the [Web-safe Fonts Level Up](../level-up/web-safe-fonts.md) for more details on other fonts that are safe to use in web development.
